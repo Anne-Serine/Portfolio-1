@@ -1,0 +1,63 @@
+.flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.flex-dir-col {
+  flex-direction: column;
+}
+
+.just-between {
+  justify-content: space-between;
+}
+
+.just-center {
+  justify-content: center;
+}
+
+.just-end {
+  justify-content: end;
+}
+
+.ms {
+  margin: 1rem;
+}
+
+.mm {
+  margin: 3rem;
+}
+
+.ml {
+  margin: 5rem;
+}
+
+.mb {
+  margin-bottom: 5rem;
+}
+
+.gaps {
+  gap: 1rem;
+}
+
+.gapm {
+  gap: 2rem;
+}
+
+.gapl {
+  gap: 3rem;
+}
+
+.pad-top-btm-s {
+  padding: 1rem 0;
+}
+
+.pad-top-btm-m {
+  padding: 2rem 0;
+}
+
+.pad-top-btm-l {
+  padding: 3rem 0;
+}
