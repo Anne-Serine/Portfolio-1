@@ -16,9 +16,10 @@
 .grid-container,
 .grid-container-projects {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
   width: 100%;
   margin: 2rem auto;
+  padding: 0 1rem;
 }
 
 .grid-container-projects {
@@ -64,7 +65,7 @@
 .self-portrait,
 .location,
 .project-card {
-  padding: 2rem;
+  padding: 1rem;
   background-color: var(--card);
   background-image: linear-gradient(to top right, rgb(23, 24, 25), var(--card));
   border-radius: 10px;
@@ -141,6 +142,10 @@
 
   .location {
     grid-area: span 2;
+  }
+
+  .project-card {
+    padding: 2rem;
   }
 
 
