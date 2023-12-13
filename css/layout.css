@@ -120,6 +120,7 @@
   text-transform: capitalize;
   font-size: 0.8rem;
   max-width: max-content;
+  border-radius: 30px;
 }
 
 .projects-section-heading {
@@ -144,6 +145,13 @@
     grid-area: span 2;
   }
 
+  .about-me,
+  .tech,
+  .experience,
+  .connect,
+  .contact,
+  .self-portrait,
+  .location,
   .project-card {
     padding: 2rem;
   }

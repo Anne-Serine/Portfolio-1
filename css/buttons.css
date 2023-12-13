@@ -1,5 +1,5 @@
 .btn {
-  width: 135px;
+  min-width: 135px;
   background-color: #7e7e7b;
   border-radius: 30px;
   color: black;
@@ -8,6 +8,9 @@
   font-weight: 700;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
+  display: flex;
+  max-width: max-content;
+  align-items: center;
   
   &.github-btn {
     background-color: transparent;
