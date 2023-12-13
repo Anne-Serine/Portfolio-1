@@ -21,7 +21,8 @@ body {
 
 h1, 
 h2,
-h3 {
+h3,
+legend {
   color: #F2ECE5;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -29,7 +30,8 @@ h3 {
 
 p,
 a,
-ul {
+ul,
+label {
   color: #F2ECE5;
   font-family: 'Poppins', sans-serif;
 }

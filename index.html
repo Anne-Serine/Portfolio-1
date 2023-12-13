@@ -163,7 +163,41 @@
       </div>
     </section>
     <section>
-
+      <div class="flex flex-dir-col just-center mb mt pad-s">
+        
+        <form method="post" class="project-card max-w-32" id="contactForm">
+          <div class="contact-heading-container">
+            <h2 class="mn">Send me a message</h2>
+          </div>
+          <fieldset>
+            <legend>If you have any questions, please contact me.</legend>
+            <div class="flex flex-dir-col gapm">
+              <div class="input-control">
+                <label for="name">Your full name</label>
+                <input type="text" class="text-input validate-input" name="name" id="name" data-minlength="5">
+                <div class="error-message"></div>
+              </div>
+              <div class="input-control">
+                <label for="email">Your e-mail address</label>
+                <input type="email" class="validate-input" name="email" id="email">
+                <div class="error-message"></div>
+              </div>
+              <div class="input-control">
+                <label for="subject">Subject</label>
+                <input type="text" class="text-input validate-input" name="subject" id="subject" data-minlength="15">
+                <div class="error-message"></div>
+              </div>
+              <div class="input-control">
+                <label for="message">Your message</label>
+                <textarea  rows="7" class="text-input validate-input" name="message" id="message" data-minlength="25"></textarea>
+                <div class="error-message"></div>
+              </div>
+              <input type="button" value="send" class="btn live-btn" id="contactFormButton">
+              <div class="status" role="alert"></div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
     </section>
   </main>
   <footer>

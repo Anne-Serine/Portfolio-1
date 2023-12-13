@@ -26,6 +26,10 @@
   justify-content: end;
 }
 
+.mn {
+  margin: 0;
+}
+
 .ms {
   margin: 1rem;
 }
@@ -64,6 +68,10 @@
 
 .gapl {
   gap: 3rem;
+}
+
+.pad-s {
+  padding: 1rem;
 }
 
 .pad-top-btm-s {
