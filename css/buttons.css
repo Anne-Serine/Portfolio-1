@@ -7,12 +7,44 @@
   text-align: center;
   font-weight: 700;
   text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
   
   &.github-btn {
-    background-color: var(--icon);
+    background-color: transparent;
+    border: 2px solid var(--icon);
+    color: var(--icon);
+
+    &:hover {
+      background-color: var(--icon);
+      color: inherit;
+    }
   }
 
   &.live-btn {
-    background-color: var(--heading);
+    background-color: transparent;
+    border: 2px solid var(--heading);
+    color: var(--heading);
+
+    &:hover {
+      background-color: var(--heading);
+      color: inherit;
+    }
   }
+
+  &.link-btn {
+    background-color: transparent;
+    border: 2px solid var(--text);
+    color: var(--text);
+
+    &:hover {
+      background-color: var(--text);
+      color: #1a1a1a;
+      border-color: var(--text);
+    }
+  }
+
+}
+
+.btn i {
+  padding-right: 0.5rem;
 }

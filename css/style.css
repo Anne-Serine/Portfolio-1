@@ -10,7 +10,8 @@
   --heading:  #82D19F;
   --text:  #F2ECE5;
   --icon: #eaab6f;
-  --card: #3A3B3D;
+  --card: #474541;
+  --tech: #744B48;
 }
 
 body {
@@ -27,7 +28,8 @@ h3 {
 }
 
 p,
-a {
+a,
+ul {
   color: #F2ECE5;
   font-family: 'Poppins', sans-serif;
 }
@@ -42,8 +44,26 @@ img {
   display: block;
 }
 
+.map-img {
+  max-width: 16rem;
+  margin: auto;
+}
+
 section {
   max-width: 1400px;
   margin: auto;
 }
 
+.logo {
+  max-width: max-content;
+  margin: auto;
+  padding: 2rem 2rem 0;
+  font-family: "Megrim", sans-serif;
+  font-size:3rem;
+}
+
+ul {
+  text-decoration: none;
+  color: var(--text);
+  margin-left: 1rem;
+}

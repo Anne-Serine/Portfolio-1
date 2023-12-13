@@ -6,31 +6,29 @@
   <link href="/css/base.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400&family=Megrim:wght@100;200;300;400&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/777383031e.js" crossorigin="anonymous"></script>
   <title>Portfolio | Anne-Serine</title>
 </head>
 <body>
   <header>
-    <h1>Anne-Serine</h1>
+    <h1 class="logo">Anne-Serine</h1>
   </header>
   <main>
     <section class="cont-box flex-dir-col mb">
-      <h1 class="visit-h">Nice to meet you!, I´m Anne-Serine.</h1>
       <div class="grid-container">
 
         <div class="about-me">
-          <h2>
-            <i class="fa-solid fa-ticket"></i> 
-            Nice to meet you!
+          <h2 class="mb-m">
+            <i class="fa-regular fa-comments"></i> 
+            Nice to meet you! I´m Anne-Serine.
           </h2>
-          <p class="mm">I'm Anne-Serine, a Frontend Developer student.
-
-             My journey involves not only writing lines of code but also understanding the intricate dance between design aesthetics and user experience.
-            
-            I invite you to explore my portfolio and get a glimpse into my world of frontend development. Feel free to reach out—I'm always up for a good coding conversation or collaboration. Let's connect and build something extraordinary!
-          </p>
-          <a href="#" class="btn mm">Contact me</a>
+          <p class="mb-s">I'm a Frontend Developer student at Noroff School of Technology and Digital Media.</p>
+          <p>My journey involves not only writing lines of code but also understanding the intricate dance between design aesthetics and user experience.</p>
+          <p>I invite you to explore my portfolio and get a glimpse of my latest work. Feel free to reach out — I'm always up for a good coding conversation or collaboration. Let's connect and build something extraordinary!</p>
+          <div class="pad-top-btm-m">
+            <a href="#" class="btn github-btn">Contact me</a>
+          </div>
         </div>
 
         <div class="self-portrait">
@@ -42,15 +40,37 @@
         <div class="tech">
           <h2>
             <i class="fa-solid fa-laptop-code"></i> 
-            Tech
+            Knowledge
           </h2>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
+          <ul>
+            <li>Design</li>
+            <li>Web and Communications Technology</li>
+            <li>HTML and CSS</li>
+            <li>Project Methodology</li>
+            <li>JavaScript</li>
+            <li>Interaction Design</li>
+            <li>Content Management System</li>
+          </ol>
+        </div>
+
+        <div class="connect">
+          <h2>
+            <i class="fa-solid fa-share-nodes"></i>
+            Connect
+          </h2>
+          <div class="flex flex-dir-col">
+            <a href="https://www.linkedin.com/in/anne-serine-johannessen-587b4024a/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+            <a href="https://github.com/Anne-Serine"><i class="fa-brands fa-github"></i>GitHub</a>
+          </div>
+        </div>
+
+        <div class="location">
+          <h2>
+            <i class="fa-solid fa-location-dot"></i> 
+            Location
+          </h2> 
+          <p>Haugesund, Norway</p>
+          <img src="/images/norway3.svg" class="map-img">
         </div>
 
         <div class="experience">
@@ -61,70 +81,90 @@
           <p>01 Year</p>
         </div>
 
-        <div class="location">
-          <h2>
-            <i class="fa-solid fa-location-dot"></i> 
-            Location
-          </h2> 
-          <p>Haugesund, Norway</p>
-          <img src="/images/norway3.svg">
-        </div>
-
-        <div class="connect">
-          <h2>
-            <i class="fa-solid fa-share-nodes"></i>
-            Connect
-          </h2>
-          <p><i class="fa-brands fa-linkedin"></i>LinkedIn</p>
-          <p><i class="fa-brands fa-github"></i>GitHub</p>
-        </div>
-
         <div class="contact">
           <h2>
             <i class="fa-regular fa-envelope"></i>
             Contact
           </h2>
           <p>anneserinejoha@gmail.com</p>
+          <p>mob: +47 92012309</p>
         </div>
         
       </div>
     </section>
     <section class="mb">
       <h2>Projects</h2>
-      <div class="grid-container-projects">
+      <div class="cont-box grid-container-projects">
+
         <div class="project-card">
-          <img src="/images/rainy-days.jpg">
-          <h2>Rainy Days</h2>
-          <p class="pad-top-btm-s">October 2023</p>
-          <p>Driven by curiosity and fueled by the desire to create meaningful user interactions, I embark on projects that challenge and inspire me. </p>
-          <div class="flex gaps pad-top-btm-s just-end">
-            <a href="#" class="btn live-btn"><i class="fa-solid fa-globe"></i>Website</a>
-            <a href="#" class="btn github-btn"><i class="fa-brands fa-github"></i>GitHub</a>
+          <div class="flex">
+            <div class="flex flex-dir-col align-1st-base gaps just-end">
+              <div>
+                <h2>Rainy Days</h2>
+                <p>October 2023</p>
+              </div>
+              <div class="flex gapxs">
+                <p class="btn tech-stat">HTML</p>
+                <p class="btn tech-stat">CSS</p>
+                <p class="btn tech-stat">JavaScript</p>
+              </div>
+              <img src="/images/rainy-days.jpg">
+              <p>Driven by curiosity and fueled by the desire to create meaningful user interactions, I embark on projects that challenge and inspire me. </p>
+              <div class="flex gaps just-end">
+                <a href="https://magenta-raindrop-38efff.netlify.app/" class="btn live-btn"><i class="fa-solid fa-globe"></i>Website</a>
+                <a href="https://github.com/Anne-Serine/cms-ca-anne-serine" class="btn github-btn"><i class="fa-brands fa-github"></i>GitHub</a>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="project-card">
-          <img src="/images/science-museum.jpg">
-          <h2>Science Museum</h2>
-          <p class="pad-top-btm-s">May 2023</p>
-          <p>Driven by curiosity and fueled by the desire to create meaningful user interactions, I embark on projects that challenge and inspire me. </p>
-          <div class="flex gaps pad-top-btm-s">
-            <a href="#" class="btn live-btn"><i class="fa-solid fa-globe"></i>Website</a>
-            <a href="#" class="btn github-btn"><i class="fa-brands fa-github"></i>GitHub</a>
+          <div class="flex">
+            <div class="flex flex-dir-col align-1st-base gaps just-end">
+              <div>
+                <h2>Science Museum</h2>
+                <p>October 2023</p>
+              </div>
+              <div class="flex gapxs">
+                <p class="btn tech-stat">HTML</p>
+                <p class="btn tech-stat">CSS</p>
+              </div>
+              <img src="/images/science-museum.jpg">
+              <p>Driven by curiosity and fueled by the desire to create meaningful user interactions, I embark on projects that challenge and inspire me. </p>
+              <div class="flex gaps just-end">
+                <a href="https://marvelous-phoenix-473392.netlify.app/" class="btn live-btn"><i class="fa-solid fa-globe"></i>Website</a>
+                <a href="https://github.com/Anne-Serine/Community-Science-Museum---Semester-Project-1" class="btn github-btn"><i class="fa-brands fa-github"></i>GitHub</a>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="project-card">
-          <img src="/images/code-n-coffee.jpg">
-          <h2>Code 'n Coffee</h2>
-          <p class="pad-top-btm-s">Dec 2023</p>
-          <p>Driven by curiosity and fueled by the desire to create meaningful user interactions, I embark on projects that challenge and inspire me. </p>
-          <div class="flex gaps pad-top-btm-s">
-            <a href="#" class="btn live-btn"><i class="fa-solid fa-globe"></i>Website</a>
-            <a href="#" class="btn github-btn"><i class="fa-brands fa-github"></i>GitHub</a>
+          <div class="flex">
+            <div class="flex flex-dir-col align-1st-base gaps just-end">
+              <div>
+                <h2>Code 'n Coffee</h2>
+                <p>October 2023</p>
+              </div>
+              <div class="flex gapxs">
+                <p class="btn tech-stat">HTML</p>
+                <p class="btn tech-stat">CSS</p>
+                <p class="btn tech-stat">JavaScript</p>
+              </div>
+              <img src="/images/code-n-coffee-carousel.jpg">
+              <p>Driven by curiosity and fueled by the desire to create meaningful user interactions, I embark on projects that challenge and inspire me. </p>
+              <div class="flex gaps just-end">
+                <a href="https://www.code-n-coffee.com/" class="btn live-btn"><i class="fa-solid fa-globe"></i>Website</a>
+                <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-Anne-Serine" class="btn github-btn"><i class="fa-brands fa-github"></i>GitHub</a>
+              </div>
+            </div>
           </div>
         </div>
+
       </div>
+    </section>
+    <section>
+
     </section>
   </main>
   <footer>
