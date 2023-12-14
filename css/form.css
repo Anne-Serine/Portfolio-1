@@ -28,8 +28,8 @@ textarea {
   width: 100%;
   background: #B9AC9D;
   border-radius: 30px;
-  border: 1px solid var(--white);
   resize: none;
+  border: 2px solid transparent;
 }
 
 .input-control input:focus,
@@ -40,11 +40,13 @@ textarea {
 .input-control.success input,
 .input-control.success textarea {
   border-color: var(--success);
+  border: 2px solid var(--success);
 }
 
 .input-control.error input,
 .input-control.error textarea {
   border-color: var(--error);
+  border: 2px solid var(--error);
 }
 
 .input-control .error-message {
@@ -59,10 +61,12 @@ textarea {
 
 .success-message {
   color: var(--success);
+  font-family: 'Poppins', sans-serif;
 }
 
 .error-message {
   color: var(--error);
+  font-family: 'Poppins', sans-serif;
 }
 
 .contact-heading-container {
