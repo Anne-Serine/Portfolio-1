@@ -8,11 +8,6 @@
   padding: 2rem 0 0rem;
 }
 
-/* .grid-container h2 i {
-  font-size: 1.5rem;
-  color: rgb(215, 95, 115);
-} */
-
 .grid-container,
 .grid-container-projects {
   display: grid;
@@ -89,8 +84,6 @@
   }
 }
 
-
-
 .location,
 .tech {
   box-shadow: -11px 15px 30px 3px;
@@ -142,7 +135,7 @@
 
 
 
-
+/* Media queries */
 
 @media only screen and (min-width: 800px) {
   .about-me {
